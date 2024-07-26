@@ -1,0 +1,29 @@
+.main-box{
+    background-color: #2B4B48;
+    height: 639px;
+    width: 700px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    margin: 1% 25% 1% 25%;
+}
+
+.red{
+    background :#C73B3B;
+    height: 213px;
+    width: 213px;
+    justify-content: center;
+}
+
+.blue{
+    background: #3B78C7;
+    height: 213px;
+    width: 213px;
+}
+
+.green{
+    background: #3BC74C;
+    height: 213px;
+    width: 213px;
+}
