@@ -1,29 +1,48 @@
-.main-box{
+.container{
     background-color: #2B4B48;
-    height: 639px;
+    height: 700px;
     width: 700px;
+    flex-wrap: wrap-reverse;
     display: flex;
     justify-content: flex-end;
-    flex-wrap: wrap-reverse;
-    flex-direction: column;
     margin: 1% 25% 1% 25%;
 }
 
+.box-red{
+    width: 233px;
+    height: 233px;
+    background-color: #D04630 ;
+}
+
+.box-blue{
+    width: 233px;
+    height: 233px;
+    background-color: #3076D0;
+}
+
+.box-green{
+    width: 233px;
+    height: 233px;
+    background-color: #30D06F ;
+}
+
 .red{
-    background :#C73B3B;
-    height: 213px;
-    width: 213px;
+    color: white;
+    align-content: center;
     justify-content: center;
+    text-align: center;
 }
 
 .blue{
-    background: #3B78C7;
-    height: 213px;
-    width: 213px;
+    color: white;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .green{
-    background: #3BC74C;
-    height: 213px;
-    width: 213px;
+    color: white;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
 }

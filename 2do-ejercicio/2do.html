@@ -3,14 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="2do.css">
-    <title>m2u2</title>
+    <title>Flexbox Layout</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+        .column {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .box {
+            width: 100px; /* Ajusta el ancho según sea necesario */
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+        }
+        .red {
+            background-color: red;
+        }
+        .blue {
+            background-color: blue;
+        }
+        .green {
+            background-color: green;
+        }
+    </style>
 </head>
 <body>
-        <div class="main-box">
-            <div class="red">flexbox-item-1</div>
-            <div class="blue">flexbox-item-2</div>
-            <div class="green">flexbox-item-3</div>
+    <div class="container">
+        <div class="column">
+            <div class="box red">1</div>
+            <div class="box blue">2</div>
+            <div class="box green">3</div>
         </div>
+    </div>
 </body>
 </html>
