@@ -1,0 +1,37 @@
+.container{
+    background: #2B4B48;
+    margin: 1% 25% 1% 25%;
+    height: 700px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.box-1{
+    width: 233px;
+    height: 233px;
+    background: #D03F30;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+
+.box-2{
+    width: 233px;
+    height: 233px;
+    background: #3080D0 ;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+
+.box-3{
+    width: 233px;
+    height: 233px;
+    background: #57D030;
+    align-content: center;
+    text-align: center;
+    color: white;
+}

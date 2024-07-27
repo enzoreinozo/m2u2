@@ -1,0 +1,33 @@
+.container{
+    background: #2B4B48;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-1{
+    width: 233px;
+    height: 233px;
+    background: #D03F30;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+
+.box-2{
+    width: 233px;
+    height: 233px;
+    background: #3080D0 ;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+
+.box-3{
+    width: 233px;
+    height: 233px;
+    background: #57D030;
+    align-content: center;
+    text-align: center;
+    color: white;
+}

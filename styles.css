@@ -1,48 +1,37 @@
 .container{
-    background-color: #2B4B48;
+    background: #2B4B48;
     height: 700px;
     width: 700px;
     flex-wrap: wrap-reverse;
     display: flex;
     justify-content: flex-end;
     margin: 1% 25% 1% 25%;
+    flex-direction: column;
 }
 
-.box-red{
+.box-1{
     width: 233px;
     height: 233px;
-    background-color: #D04630 ;
+    background: #D03F30;
+    align-content: center;
+    text-align: center;
+    color: white;
 }
 
-.box-blue{
+.box-2{
     width: 233px;
     height: 233px;
-    background-color: #3076D0;
+    background: #3080D0 ;
+    align-content: center;
+    text-align: center;
+    color: white;
 }
 
-.box-green{
+.box-3{
     width: 233px;
     height: 233px;
-    background-color: #30D06F ;
-}
-
-.red{
-    color: white;
+    background: #57D030;
     align-content: center;
-    justify-content: center;
     text-align: center;
-}
-
-.blue{
     color: white;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.green{
-    color: white;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
 }
